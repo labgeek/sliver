@@ -18,6 +18,9 @@ package certs
 	along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
+// changed subject to different cities than default main branch
+// also change crypto
+
 import (
 	"crypto/x509/pkix"
 	"fmt"
