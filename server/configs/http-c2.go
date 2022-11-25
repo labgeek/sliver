@@ -231,7 +231,7 @@ var (
 		ServerConfig: &HTTPC2ServerConfig{
 			RandomVersionHeaders: false,
 			Cookies: []string{
-				"PHPSESSID", "SID", "SSID", "APISID", "csrf-state", "AWSALBCORS",
+				"ANON", "NID", "ANID", "HSID", "form_key", "MATOMO_SESSID", "ONESIGNAL_HTTP_PROMPT", "PHPSESSID", "SID", "SSID", "APISID", "SSIDAPISID", "csrf-state", "AWSALBCORS",
 			},
 			Headers: []NameValueProbability{
 				// {Name: "Cache-Control", Value: "no-store, no-cache, must-revalidate", Probability: 100},
